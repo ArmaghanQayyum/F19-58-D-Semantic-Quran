@@ -1,0 +1,1462 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://127.0.0.1:3333/Al-Faatiha> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "5"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Faatiha";
+  dbp:nameAr "الفاتحة";
+  dbp:nameEn "The Opening";
+  dbp:number "1";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "7"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Faatiha" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Baqara> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "87"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Baqara";
+  dbp:nameAr "البقرة";
+  dbp:nameEn "The Cow";
+  dbp:number "2";
+  dbp:rukus "40"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "286"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Baqara" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Aal-i-Imraan> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "89"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Aal-i-Imraan";
+  dbp:nameAr "آل عمران";
+  dbp:nameEn "The Family of Imraan";
+  dbp:number "3";
+  dbp:rukus "20"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "200"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Aal-i-Imraan" .
+
+<http://127.0.0.1:3333/An-Nisaa> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "92"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "An-Nisaa";
+  dbp:nameAr "النساء";
+  dbp:nameEn "The Women";
+  dbp:number "4";
+  dbp:rukus "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "176"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Nisaa" .
+
+<http://127.0.0.1:3333/Al-Maaida> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "112"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Maaida";
+  dbp:nameAr "المائدة";
+  dbp:nameEn "The Table";
+  dbp:number "5";
+  dbp:rukus "16"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "120"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Maaida" .
+
+<http://127.0.0.1:3333/Al-An'aam> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "55"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-An'aam";
+  dbp:nameAr "الأنعام";
+  dbp:nameEn "The Cattle";
+  dbp:number "6";
+  dbp:rukus "20"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "165"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-An'aam" .
+
+<http://127.0.0.1:3333/Al-A'raaf> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "39"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-A'raaf";
+  dbp:nameAr "الأعراف";
+  dbp:nameEn "The Heights";
+  dbp:number "7";
+  dbp:rukus "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "206"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-A'raaf" .
+
+<http://127.0.0.1:3333/Al-Anfaal> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "88"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Anfaal";
+  dbp:nameAr "الأنفال";
+  dbp:nameEn "The Spoils of War";
+  dbp:number "8";
+  dbp:rukus "10"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "75"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Anfaal" .
+
+<http://127.0.0.1:3333/At-Tawba> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "113"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "At-Tawba";
+  dbp:nameAr "التوبة";
+  dbp:nameEn "The Repentance";
+  dbp:number "9";
+  dbp:rukus "16"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "129"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Tawba" .
+
+<http://127.0.0.1:3333/Yunus> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "51"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Yunus";
+  dbp:nameAr "يونس";
+  dbp:nameEn "Jonas";
+  dbp:number "10";
+  dbp:rukus "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "109"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Yunus" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Hud> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "52"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Hud";
+  dbp:nameAr "هود";
+  dbp:nameEn "Hud";
+  dbp:number "11";
+  dbp:rukus "10"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "123"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Hud" .
+
+<http://127.0.0.1:3333/Yusuf> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "53"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Yusuf";
+  dbp:nameAr "يوسف";
+  dbp:nameEn "Joseph";
+  dbp:number "12";
+  dbp:rukus "12"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "111"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Yusuf" .
+
+<http://127.0.0.1:3333/Ar-Ra'd> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "96"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Ar-Ra'd";
+  dbp:nameAr "الرعد";
+  dbp:nameEn "The Thunder";
+  dbp:number "13";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "43"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ar-Ra'd" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Ibrahim> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "72"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Ibrahim";
+  dbp:nameAr "ابراهيم";
+  dbp:nameEn "Abraham";
+  dbp:number "14";
+  dbp:rukus "7"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "52"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ibrahim" .
+
+<http://127.0.0.1:3333/Al-Hijr> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "54"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Hijr";
+  dbp:nameAr "الحجر";
+  dbp:nameEn "The Rock";
+  dbp:number "15";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "99"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Hijr" .
+
+<http://127.0.0.1:3333/An-Nahl> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "70"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "An-Nahl";
+  dbp:nameAr "النحل";
+  dbp:nameEn "The Bee";
+  dbp:number "16";
+  dbp:rukus "16"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "128"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Nahl" .
+
+<http://127.0.0.1:3333/Al-Israa> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "50"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Israa";
+  dbp:nameAr "الإسراء";
+  dbp:nameEn "The Night Journey";
+  dbp:number "17";
+  dbp:rukus "12"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "111"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Israa" .
+
+<http://127.0.0.1:3333/Al-Kahf> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "69"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Kahf";
+  dbp:nameAr "الكهف";
+  dbp:nameEn "The Cave";
+  dbp:number "18";
+  dbp:rukus "12"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "110"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Kahf" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Maryam> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "44"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Maryam";
+  dbp:nameAr "مريم";
+  dbp:nameEn "Mary";
+  dbp:number "19";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "98"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Maryam" .
+
+<http://127.0.0.1:3333/Taa-Haa> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "45"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Taa-Haa";
+  dbp:nameAr "طه";
+  dbp:nameEn "Taa-Haa";
+  dbp:number "20";
+  dbp:rukus "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "135"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Taa-Haa" .
+
+<http://127.0.0.1:3333/Al-Anbiyaa> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "73"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Anbiyaa";
+  dbp:nameAr "الأنبياء";
+  dbp:nameEn "The Prophets";
+  dbp:number "21";
+  dbp:rukus "7"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "112"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Anbiyaa" .
+
+<http://127.0.0.1:3333/Al-Hajj> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "103"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Hajj";
+  dbp:nameAr "الحج";
+  dbp:nameEn "The Pilgrimage";
+  dbp:number "22";
+  dbp:rukus "10"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "78"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Hajj" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Muminoon> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "74"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Muminoon";
+  dbp:nameAr "المؤمنون";
+  dbp:nameEn "The Believers";
+  dbp:number "23";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "118"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Muminoon" .
+
+<http://127.0.0.1:3333/An-Noor> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "102"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "An-Noor";
+  dbp:nameAr "النور";
+  dbp:nameEn "The Light";
+  dbp:number "24";
+  dbp:rukus "9"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "64"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Noor" .
+
+<http://127.0.0.1:3333/Al-Furqaan> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "42"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Furqaan";
+  dbp:nameAr "الفرقان";
+  dbp:nameEn "The Criterion";
+  dbp:number "25";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "77"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Furqaan" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Ash-Shu'araa> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "47"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Ash-Shu'araa";
+  dbp:nameAr "الشعراء";
+  dbp:nameEn "The Poets";
+  dbp:number "26";
+  dbp:rukus "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "227"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ash-Shu'araa" .
+
+<http://127.0.0.1:3333/An-Naml> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "48"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "An-Naml";
+  dbp:nameAr "النمل";
+  dbp:nameEn "The Ant";
+  dbp:number "27";
+  dbp:rukus "7"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "93"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Naml" .
+
+<http://127.0.0.1:3333/Al-Qasas> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "49"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Qasas";
+  dbp:nameAr "القصص";
+  dbp:nameEn "The Stories";
+  dbp:number "28";
+  dbp:rukus "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "88"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Qasas" .
+
+<http://127.0.0.1:3333/Al-Ankaboot> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "85"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Ankaboot";
+  dbp:nameAr "العنكبوت";
+  dbp:nameEn "The Spider";
+  dbp:number "29";
+  dbp:rukus "7"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "69"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Ankaboot" .
+
+<http://127.0.0.1:3333/Ar-Room> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "84"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Ar-Room";
+  dbp:nameAr "الروم";
+  dbp:nameEn "The Romans";
+  dbp:number "30";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "60"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ar-Room" .
+
+<http://127.0.0.1:3333/Luqman> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "57"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Luqman";
+  dbp:nameAr "لقمان";
+  dbp:nameEn "Luqman";
+  dbp:number "31";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "34"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Luqman" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification, dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/As-Sajda> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "75"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "As-Sajda";
+  dbp:nameAr "السجدة";
+  dbp:nameEn "The Prostration";
+  dbp:number "32";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "30"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "As-Sajda" .
+
+<http://127.0.0.1:3333/Al-Ahzaab> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "90"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Ahzaab";
+  dbp:nameAr "الأحزاب";
+  dbp:nameEn "The Clans";
+  dbp:number "33";
+  dbp:rukus "9"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "73"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Ahzaab" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Saba> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "58"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Saba";
+  dbp:nameAr "سبإ";
+  dbp:nameEn "Sheba";
+  dbp:number "34";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "54"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Saba" .
+
+<http://127.0.0.1:3333/Faatir> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "43"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Faatir";
+  dbp:nameAr "فاطر";
+  dbp:nameEn "The Originator";
+  dbp:number "35";
+  dbp:rukus "5"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "45"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Faatir" .
+
+<http://127.0.0.1:3333/Yaseen> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "41"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Yaseen";
+  dbp:nameAr "يس";
+  dbp:nameEn "Yaseen";
+  dbp:number "36";
+  dbp:rukus "5"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "83"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Yaseen" .
+
+<http://127.0.0.1:3333/As-Saaffaat> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "56"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "As-Saaffaat";
+  dbp:nameAr "الصافات";
+  dbp:nameEn "Those drawn up in Ranks";
+  dbp:number "37";
+  dbp:rukus "5"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "182"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "As-Saaffaat" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Saad> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "38"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Saad";
+  dbp:nameAr "ص";
+  dbp:nameEn "The letter Saad";
+  dbp:number "38";
+  dbp:rukus "5"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "88"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Saad" .
+
+<http://127.0.0.1:3333/Az-Zumar> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "59"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Az-Zumar";
+  dbp:nameAr "الزمر";
+  dbp:nameEn "The Groups";
+  dbp:number "39";
+  dbp:rukus "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "75"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Az-Zumar" .
+
+<http://127.0.0.1:3333/Al-Ghaafir> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "60"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Ghaafir";
+  dbp:nameAr "غافر";
+  dbp:nameEn "The Forgiver";
+  dbp:number "40";
+  dbp:rukus "9"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "85"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Ghaafir" .
+
+<http://127.0.0.1:3333/Fussilat> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "61"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Fussilat";
+  dbp:nameAr "فصلت";
+  dbp:nameEn "Explained in detail";
+  dbp:number "41";
+  dbp:rukus "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "54"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Fussilat" .
+
+<http://127.0.0.1:3333/Ash-Shura> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "62"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Ash-Shura";
+  dbp:nameAr "الشورى";
+  dbp:nameEn "Consultation";
+  dbp:number "42";
+  dbp:rukus "5"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "53"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ash-Shura" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Az-Zukhruf> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "63"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Az-Zukhruf";
+  dbp:nameAr "الزخرف";
+  dbp:nameEn "Ornaments of gold";
+  dbp:number "43";
+  dbp:rukus "7"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "89"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Az-Zukhruf" .
+
+<http://127.0.0.1:3333/Ad-Dukhaan> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "64"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Ad-Dukhaan";
+  dbp:nameAr "الدخان";
+  dbp:nameEn "The Smoke";
+  dbp:number "44";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "59"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ad-Dukhaan" .
+
+<http://127.0.0.1:3333/Al-Jaathiya> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "65"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Jaathiya";
+  dbp:nameAr "الجاثية";
+  dbp:nameEn "Crouching";
+  dbp:number "45";
+  dbp:rukus "4"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "37"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Jaathiya" .
+
+<http://127.0.0.1:3333/Al-Ahqaf> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "66"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Ahqaf";
+  dbp:nameAr "الأحقاف";
+  dbp:nameEn "The Dunes";
+  dbp:number "46";
+  dbp:rukus "4"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "35"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Ahqaf" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Muhammad> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "95"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Muhammad";
+  dbp:nameAr "محمد";
+  dbp:nameEn "Muhammad";
+  dbp:number "47";
+  dbp:rukus "4"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "38"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Muhammad" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Fath> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "111"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Fath";
+  dbp:nameAr "الفتح";
+  dbp:nameEn "The Victory";
+  dbp:number "48";
+  dbp:rukus "4"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "29"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Fath" .
+
+<http://127.0.0.1:3333/Al-Hujuraat> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "106"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Hujuraat";
+  dbp:nameAr "الحجرات";
+  dbp:nameEn "The Inner Apartments";
+  dbp:number "49";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "18"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Hujuraat" .
+
+<http://127.0.0.1:3333/Qaaf> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "34"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Qaaf";
+  dbp:nameAr "ق";
+  dbp:nameEn "The letter Qaaf";
+  dbp:number "50";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "45"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Qaaf" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Adh-Dhaariyat> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "67"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Adh-Dhaariyat";
+  dbp:nameAr "الذاريات";
+  dbp:nameEn "The Winnowing Winds";
+  dbp:number "51";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "60"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Adh-Dhaariyat" .
+
+<http://127.0.0.1:3333/At-Tur> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "76"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "At-Tur";
+  dbp:nameAr "الطور";
+  dbp:nameEn "The Mount";
+  dbp:number "52";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "49"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Tur" .
+
+<http://127.0.0.1:3333/An-Najm> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "23"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "An-Najm";
+  dbp:nameAr "النجم";
+  dbp:nameEn "The Star";
+  dbp:number "53";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "62"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Najm" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan", "Meccan" .
+
+<http://127.0.0.1:3333/Al-Qamar> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "37"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Qamar";
+  dbp:nameAr "القمر";
+  dbp:nameEn "The Moon";
+  dbp:number "54";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "55"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Qamar" .
+
+<http://127.0.0.1:3333/Ar-Rahmaan> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "97"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Ar-Rahmaan";
+  dbp:nameAr "الرحمن";
+  dbp:nameEn "The Beneficent";
+  dbp:number "55";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "78"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ar-Rahmaan" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Waaqia> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "46"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Waaqia";
+  dbp:nameAr "الواقعة";
+  dbp:nameEn "The Inevitable";
+  dbp:number "56";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "96"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Waaqia" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification .
+
+<http://127.0.0.1:3333/Al-Hadid> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "94"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Hadid";
+  dbp:nameAr "الحديد";
+  dbp:nameEn "The Iron";
+  dbp:number "57";
+  dbp:rukus "4"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "29"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Hadid" .
+
+<http://127.0.0.1:3333/Al-Mujaadila> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "105"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Mujaadila";
+  dbp:nameAr "المجادلة";
+  dbp:nameEn "The Pleading Woman";
+  dbp:number "58";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "22"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Mujaadila" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Hashr> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "101"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Hashr";
+  dbp:nameAr "الحشر";
+  dbp:nameEn "The Exile";
+  dbp:number "59";
+  dbp:rukus "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Hashr" .
+
+<http://127.0.0.1:3333/Al-Mumtahana> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "91"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Mumtahana";
+  dbp:nameAr "الممتحنة";
+  dbp:nameEn "She that is to be examined";
+  dbp:number "60";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "13"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Mumtahana" .
+
+<http://127.0.0.1:3333/As-Saff> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "109"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "As-Saff";
+  dbp:nameAr "الصف";
+  dbp:nameEn "The Ranks";
+  dbp:number "61";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "14"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "As-Saff" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan";
+  a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Jumu'a> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "110"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Jumu'a";
+  dbp:nameAr "الجمعة";
+  dbp:nameEn "Friday";
+  dbp:number "62";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Jumu'a" .
+
+<http://127.0.0.1:3333/Al-Munaafiqoon> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "104"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Munaafiqoon";
+  dbp:nameAr "المنافقون";
+  dbp:nameEn "The Hypocrites";
+  dbp:number "63";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Munaafiqoon" .
+
+<http://127.0.0.1:3333/At-Taghaabun> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "108"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "At-Taghaabun";
+  dbp:nameAr "التغابن";
+  dbp:nameEn "Mutual Disillusion";
+  dbp:number "64";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "18"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Taghaabun" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/At-Talaaq> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "99"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "At-Talaaq";
+  dbp:nameAr "الطلاق";
+  dbp:nameEn "Divorce";
+  dbp:number "65";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "12"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Talaaq" .
+
+<http://127.0.0.1:3333/At-Tahrim> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "107"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "At-Tahrim";
+  dbp:nameAr "التحريم";
+  dbp:nameEn "The Prohibition";
+  dbp:number "66";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "12"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Tahrim" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Mulk> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "77"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Mulk";
+  dbp:nameAr "الملك";
+  dbp:nameEn "The Sovereignty";
+  dbp:number "67";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "30"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Mulk" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Qalam> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Qalam";
+  dbp:nameAr "القلم";
+  dbp:nameEn "The Pen";
+  dbp:number "68";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "52"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Qalam" .
+
+<http://127.0.0.1:3333/Al-Haaqqa> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "78"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Haaqqa";
+  dbp:nameAr "الحاقة";
+  dbp:nameEn "The Reality";
+  dbp:number "69";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "52"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Haaqqa" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Ma'aarij> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "79"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Ma'aarij";
+  dbp:nameAr "المعارج";
+  dbp:nameEn "The Ascending Stairways";
+  dbp:number "70";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "44"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Ma'aarij" .
+
+<http://127.0.0.1:3333/Nooh> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "71"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Nooh";
+  dbp:nameAr "نوح";
+  dbp:nameEn "Noah";
+  dbp:number "71";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "28"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Nooh" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Jinn> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "40"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Jinn";
+  dbp:nameAr "الجن";
+  dbp:nameEn "The Jinn";
+  dbp:number "72";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "28"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Jinn" .
+
+<http://127.0.0.1:3333/Al-Muzzammil> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Muzzammil";
+  dbp:nameAr "المزمل";
+  dbp:nameEn "The Enshrouded One";
+  dbp:number "73";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "20"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Muzzammil" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Muddaththir> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "4"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Muddaththir";
+  dbp:nameAr "المدثر";
+  dbp:nameEn "The Cloaked One";
+  dbp:number "74";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "56"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Muddaththir" .
+
+<http://127.0.0.1:3333/Al-Qiyaama> <http://127.0.0.1:3333/has_revelation_order> "31"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Qiyaama";
+  a dbp:surah;
+  dbp:nameAr "القيامة";
+  dbp:nameEn "The Resurrection";
+  dbp:number "75";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "40"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Qiyaama" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Insaan> a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:name "Al-Insaan";
+  <http://127.0.0.1:3333/has_revelation_order> "98"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameAr "الانسان";
+  dbp:nameEn "Man";
+  dbp:number "76";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "31"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Insaan" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Mursalaat> a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Mursalaat";
+  <http://127.0.0.1:3333/has_revelation_order> "33"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameAr "المرسلات";
+  dbp:nameEn "The Emissaries";
+  dbp:number "77";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "50"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Mursalaat" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan";
+  a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/An-Naba> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "80"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "An-Naba";
+  dbp:nameAr "النبإ";
+  dbp:nameEn "The Announcement";
+  dbp:number "78";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "40"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Naba" .
+
+<http://127.0.0.1:3333/An-Naazi'aat> a dbp:surah;
+  dbp:name "An-Naazi'aat";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "81"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameAr "النازعات";
+  dbp:nameEn "Those who drag forth";
+  dbp:number "79";
+  dbp:rukus "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "46"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Naazi'aat" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan";
+  a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Abasa> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "24"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Abasa";
+  dbp:nameAr "عبس";
+  dbp:nameEn "He frowned";
+  dbp:number "80";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "42"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Abasa" .
+
+<http://127.0.0.1:3333/Meccan> rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/At-Takwir> a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "7"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:name "At-Takwir";
+  dbp:nameAr "التكوير";
+  dbp:nameEn "The Overthrowing";
+  dbp:number "81";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "29"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Takwir" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Infitaar> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "82"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Infitaar";
+  dbp:nameAr "الإنفطار";
+  dbp:nameEn "The Cleaving";
+  dbp:number "82";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "19"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Infitaar" .
+
+<http://127.0.0.1:3333/Al-Mutaffifin> a dbp:surah;
+  dbp:name "Al-Mutaffifin";
+  dbp:nameAr "المطففين";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "86"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "Defrauding";
+  dbp:number "83";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "36"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Mutaffifin" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Inshiqaaq> a dbp:surah;
+  dbp:name "Al-Inshiqaaq";
+  dbp:nameAr "الإنشقاق";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "83"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Splitting Open";
+  dbp:number "84";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "25"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Inshiqaaq" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Burooj> a dbp:surah;
+  dbp:name "Al-Burooj";
+  dbp:nameAr "البروج";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "27"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Constellations";
+  dbp:number "85";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "22"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Burooj" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/At-Taariq> a dbp:surah;
+  dbp:name "At-Taariq";
+  dbp:nameAr "الطارق";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "36"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Morning Star";
+  dbp:number "86";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "17"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Taariq" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-A'laa> a dbp:surah;
+  dbp:name "Al-A'laa";
+  dbp:nameAr "الأعلى";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Most High";
+  dbp:number "87";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "19"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-A'laa" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Ghaashiya> a dbp:surah;
+  dbp:name "Al-Ghaashiya";
+  dbp:nameAr "الغاشية";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "68"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Overwhelming";
+  dbp:number "88";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "26"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Ghaashiya" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan";
+  a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Fajr> a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "10"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:name "Al-Fajr";
+  dbp:nameAr "الفجر";
+  dbp:nameEn "The Dawn";
+  dbp:number "89";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "30"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Fajr" .
+
+<http://127.0.0.1:3333/Al-Balad> dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Al-Balad";
+  a dbp:surah;
+  dbp:nameAr "البلد";
+  <http://127.0.0.1:3333/has_revelation_order> "35"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The City";
+  dbp:number "90";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "20"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Balad" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Ash-Shams> a dbp:surah;
+  dbp:name "Ash-Shams";
+  dbp:nameAr "الشمس";
+  dbp:nameEn "The Sun";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "91";
+  <http://127.0.0.1:3333/has_revelation_order> "26"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "15"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ash-Shams" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Lail> a dbp:surah;
+  dbp:name "Al-Lail";
+  dbp:nameAr "الليل";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "9"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Night";
+  dbp:number "92";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Lail" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Ad-Dhuhaa> a dbp:surah;
+  dbp:name "Ad-Dhuhaa";
+  dbp:nameAr "الضحى";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Morning Hours";
+  dbp:number "93";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ad-Dhuhaa" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Ash-Sharh> dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:name "Ash-Sharh";
+  <http://127.0.0.1:3333/has_revelation_order> "12"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:nameEn "The Consolation";
+  a dbp:surah;
+  dbp:nameAr "الشرح";
+  dbp:number "94";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:verses "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Ash-Sharh" .
+
+<http://127.0.0.1:3333/At-Tin> a dbp:surah;
+  dbp:name "At-Tin";
+  dbp:nameAr "التين";
+  dbp:nameEn "The Fig";
+  dbp:verses "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "28"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "95";
+  rdfs:label "At-Tin" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Alaq> a dbp:surah;
+  <http://127.0.0.1:3333/has_revelation_order> "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:name "Al-Alaq";
+  dbp:nameAr "العلق";
+  dbp:nameEn "The Clot";
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:verses "19"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "96";
+  rdfs:label "Al-Alaq" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Qadr> a dbp:surah;
+  dbp:nameAr "القدر";
+  dbp:name "Al-Qadr";
+  dbp:nameEn "The Power, Fate";
+  dbp:number "97";
+  dbp:verses "5"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "25"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Qadr" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Bayyina> a dbp:surah;
+  dbp:name "Al-Bayyina";
+  dbp:nameAr "البينة";
+  dbp:nameEn "The Evidence";
+  dbp:verses "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  <http://127.0.0.1:3333/has_revelation_order> "100"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "98";
+  rdfs:label "Al-Bayyina" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Az-Zalzala> a dbp:surah;
+  dbp:name "Az-Zalzala";
+  dbp:nameAr "الزلزلة";
+  dbp:nameEn "The Earthquake";
+  dbp:verses "8"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  <http://127.0.0.1:3333/has_revelation_order> "93"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "99";
+  rdfs:label "Az-Zalzala" .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/Al-Aadiyaat> a dbp:surah;
+  dbp:name "Al-Aadiyaat";
+  dbp:nameAr "العاديات";
+  dbp:nameEn "The Chargers";
+  dbp:verses "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "14"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "100";
+  rdfs:label "Al-Aadiyaat" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Qaari'a> dbp:classification <http://127.0.0.1:3333/Meccan>;
+  a dbp:surah;
+  dbp:nameAr "القارعة";
+  dbp:number "101";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/has_revelation_order> "30"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:name "Al-Qaari'a";
+  dbp:nameEn "The Calamity";
+  dbp:verses "11"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Qaari'a" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification .
+
+<http://127.0.0.1:3333/At-Takaathur> a dbp:surah;
+  dbp:nameAr "التكاثر";
+  dbp:name "At-Takaathur";
+  dbp:nameEn "Competition";
+  dbp:verses "8"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/At-Takaathur> <http://127.0.0.1:3333/has_revelation_order>
+    "16"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "102";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "At-Takaathur" .
+
+<http://127.0.0.1:3333/Al-Asr> a dbp:surah;
+  dbp:nameAr "العصر";
+  dbp:name "Al-Asr";
+  dbp:nameEn "The Declining Day, Epoch";
+  dbp:verses "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Asr> <http://127.0.0.1:3333/has_revelation_order> "13"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "103";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Asr" .
+
+<http://127.0.0.1:3333/Al-Humaza> a dbp:surah;
+  dbp:nameAr "الهمزة";
+  dbp:name "Al-Humaza";
+  dbp:nameEn "The Traducer";
+  dbp:verses "9"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Humaza> <http://127.0.0.1:3333/has_revelation_order> "32"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "104";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Humaza" .
+
+<http://127.0.0.1:3333/Al-Fil> a dbp:surah;
+  dbp:nameAr "الفيل";
+  dbp:name "Al-Fil";
+  dbp:nameEn "The Elephant";
+  dbp:verses "5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Fil> <http://127.0.0.1:3333/has_revelation_order> "19"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "105";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Fil" .
+
+<http://127.0.0.1:3333/Quraish> a dbp:surah;
+  dbp:nameAr "قريش";
+  dbp:name "Quraish";
+  dbp:nameEn "Quraysh";
+  dbp:verses "4"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Quraish> <http://127.0.0.1:3333/has_revelation_order> "29"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "106";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Quraish" .
+
+<http://127.0.0.1:3333/Al-Maa'un> a dbp:surah;
+  dbp:nameAr "الماعون";
+  dbp:name "Al-Maa'un";
+  dbp:nameEn "Almsgiving";
+  dbp:verses "7"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Maa'un> <http://127.0.0.1:3333/has_revelation_order> "17"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "107";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Maa'un" .
+
+<http://127.0.0.1:3333/Meccan> rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Kawthar> dbp:nameEn "Abundance";
+  a dbp:surah;
+  dbp:nameAr "الكوثر";
+  dbp:name "Al-Kawthar";
+  dbp:verses "3"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "15"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "108";
+  rdfs:label "Al-Kawthar" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Kaafiroon> a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:nameAr "الكافرون";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:name "Al-Kaafiroon";
+  dbp:nameEn "The Disbelievers";
+  dbp:verses "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  <http://127.0.0.1:3333/has_revelation_order> "18"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "109";
+  rdfs:label "Al-Kaafiroon" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification .
+
+<http://127.0.0.1:3333/An-Nasr> a dbp:surah;
+  dbp:nameAr "النصر";
+  dbp:name "An-Nasr";
+  dbp:nameEn "Divine Support";
+  dbp:verses "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Medinan> a dbp:classification;
+  rdfs:label "Medinan" .
+
+<http://127.0.0.1:3333/An-Nasr> <http://127.0.0.1:3333/has_revelation_order> "114"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Medinan>;
+  dbp:number "110";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Nasr" .
+
+<http://127.0.0.1:3333/Al-Masad> a dbp:surah;
+  dbp:nameAr "المسد";
+  dbp:name "Al-Masad";
+  dbp:nameEn "The Palm Fibre";
+  dbp:verses "5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Masad> <http://127.0.0.1:3333/has_revelation_order> "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:number "111";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Masad" .
+
+<http://127.0.0.1:3333/Al-Ikhlaas> dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "Al-Ikhlaas";
+  <http://127.0.0.1:3333/has_revelation_order> "22"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Ikhlaas> a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:nameAr "الإخلاص";
+  dbp:name "Al-Ikhlaas";
+  dbp:nameEn "Sincerity";
+  dbp:number "112";
+  dbp:verses "4"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Al-Falaq> <http://127.0.0.1:3333/has_revelation_order> "20"^^<http://www.w3.org/2001/XMLSchema#int>;
+  a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  dbp:nameAr "الفلق";
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:name "Al-Falaq";
+  dbp:nameEn "The Dawn";
+  dbp:verses "5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/Al-Falaq> dbp:number "113";
+  rdfs:label "Al-Falaq" .
+
+<http://127.0.0.1:3333/Meccan> a dbp:classification;
+  rdfs:label "Meccan" .
+
+<http://127.0.0.1:3333/An-Naas> dbp:nameAr "الناس";
+  dbp:name "An-Naas";
+  dbp:nameEn "Mankind";
+  a dbp:surah;
+  dbp:classification <http://127.0.0.1:3333/Meccan>;
+  <http://127.0.0.1:3333/has_revelation_order> "21"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:rukus "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+  dbp:number "114";
+  dbp:verses "6"^^<http://www.w3.org/2001/XMLSchema#int>;
+  rdfs:label "An-Naas" .
